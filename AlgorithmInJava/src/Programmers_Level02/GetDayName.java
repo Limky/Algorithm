@@ -1,4 +1,4 @@
-package Level02;
+package Programmers_Level02;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

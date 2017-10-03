@@ -1,4 +1,4 @@
-package Level02;
+package Programmers_Level02;
 
 public class HarshadNumber {
 
