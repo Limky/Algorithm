@@ -4,7 +4,7 @@ public class JumpCase {
 
 	public static void main(String[] args) {
 		JumpCase c = new JumpCase();
-        int testCase =19;
+        int testCase =8;
         //아래는 테스트로 출력해 보기 위한 코드입니다.
         System.out.println(c.jumpCase(testCase));
 	

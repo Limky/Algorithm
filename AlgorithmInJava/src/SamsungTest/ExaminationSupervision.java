@@ -34,13 +34,13 @@ public class ExaminationSupervision {
 		
 		int subVieweNumber = 0;
 		for(int i = 0; i < classRoom.length; i++){
-			System.out.println("classRoom[i] "+classRoom[i]);
+		//	System.out.println("classRoom[i] "+classRoom[i]);
 			if(classRoom[i] > 0){
 				
 				do{
 					classRoom[i] -= subViewer;
 					subVieweNumber++;
-					System.out.println("sub "+subVieweNumber);
+				//	System.out.println("sub "+subVieweNumber);
 				}while(classRoom[i] > 0);
 					
 				

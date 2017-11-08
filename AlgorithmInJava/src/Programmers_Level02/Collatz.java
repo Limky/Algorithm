@@ -6,7 +6,7 @@ public class Collatz {
 		// TODO Auto-generated method stub
 		Collatz c = new Collatz();
 		int ex = 626331;
-		System.out.println("= "+c.collatz(ex));
+		System.out.println(c.collatz(ex));
 	}
 	
 	public int collatz(int num) {
@@ -17,11 +17,11 @@ public class Collatz {
 		if(answer%2==0){
 			//È¦¼ö
 			answer = answer/2;
-			System.out.print(answer+" ");
+		//	System.out.print(answer+" ");
 		}else{
 			//Â¦¼ö
 			answer = (answer*3)+1;
-			System.out.print(answer+" ");
+		//	System.out.print(answer+" ");
 		}
 			n++;
 			if(answer==1)return n;
