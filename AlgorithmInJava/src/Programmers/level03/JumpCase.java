@@ -1,4 +1,4 @@
-package Programmers_Level03;
+package Programmers.level03;
 
 public class JumpCase {
 
