@@ -14,7 +14,7 @@ public class Fibonacci {
 		System.out.print(fibonacci(i)+" ");
 		}
 		
-		noRecursion(n);
+		//noRecursion(n);
 		
 	}
 
